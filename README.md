@@ -2,9 +2,9 @@
 
 ## Installation
 
+Download the MyTLDR.deb file from the release folder. Open the download folder in a terminal and run the following command.
+
 ```Bash
-git clone https://github.com/h3Nn35/mytldr.git
-cd mytldr/release/
 sudo dpkg -i MyTLDR.deb
 ```
 

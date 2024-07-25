@@ -54,7 +54,7 @@ fn main() {
     let args: Vec<String> = env::args().collect();
 
     if args.len() < 2 {
-        eprintln!("Usage: cargo run -- [-f] <query>");
+        eprintln!("Usage: tldr [-f] <application>");
         std::process::exit(1);
     }
 
